@@ -1,0 +1,35 @@
+[
+  {
+    "id": "69d4aea8-6e24-40ca-abef-40808667dca2",
+    "name": "Rakesh Surya",
+    "age": 30,
+    "occupation": "Software Engineer",
+    "address": "32, Pinewood Dr, Phase 3, Hinjawadi Rajiv Gandhi Infotech Park, Hinjawadi, Pune, Pimpri-Chinchwad, Maharashtra 411057",
+    "imageUrl": "https://static.vecteezy.com/system/resources/previews/024/183/538/original/male-avatar-portrait-of-a-business-man-in-a-suit-illustration-of-male-character-in-modern-color-style-vector.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sumit-doijad-885076172/?originalSubdomain=in",
+    "instagram": "https://www.instagram.com/sumit__1802/",
+    "interests": "Coding, Reading"
+  },
+  {
+    "id": "c3e88ec0-f5cb-4fb5-9d44-458c6ea75c56",
+    "name": "Ashoka Dinnar",
+    "age": 37,
+    "occupation": "Full Stack Developer",
+    "address": "10, Naylor Rd, Atur Park Co-operative Housing Society, Sangamvadi, Pune, Maharashtra 411001",
+    "imageUrl": "https://static.vecteezy.com/system/resources/previews/024/183/535/original/male-avatar-portrait-of-a-young-man-with-glasses-illustration-of-male-character-in-modern-color-style-vector.jpg",
+    "linkedIn": "https://www.linkedin.com/in/sumit-doijad-885076172/?originalSubdomain=in",
+    "instagram": "https://www.instagram.com/sumit__1802/",
+    "interests": "Dancing, Cricket, Jogging"
+  },
+  {
+    "id": "02e9e5c9-2e34-4e4e-83d2-7256c7809192",
+    "name": "Serva Manak",
+    "age": 42,
+    "occupation": "Product manager",
+    "address": "62, Shikshak Nagar Rd, Sopan Baug Society, Kavade Mala, Ghorpadi, Pune, Maharashtra 411001",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjS7DHESwi-0O_iaIMeU5_9LS9SC8PNMpyRw&s",
+    "linkedIn": "https://www.linkedin.com/in/sumit-doijad-885076172/?originalSubdomain=in",
+    "instagram": "https://www.instagram.com/sumit__1802/",
+    "interests": "Drawing, Singing"
+  }
+]

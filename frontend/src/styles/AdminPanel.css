@@ -1,0 +1,206 @@
+.admin-panel {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.admin-header {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #555;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  width: 110%;
+}
+
+.admin-header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.admin-header .btn-danger {
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #dc3545;
+  width: 10%;
+}
+
+.admin-header .btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Form Styling */
+.form-group {
+  /* margin-bottom: 1.5rem; */
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.form-control {
+  /* padding: 0.75rem; */
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  width: 150%;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.error {
+  color: #dc3545;
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+/* Button Styling */
+.btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+  border: 1px solid #dee2e6;
+  margin-top: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+table th, table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #dee2e6;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  font-size: 1rem;
+}
+
+/* table tbody tr:hover {
+  background-color: #f1f1f1;
+} */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-panel {
+    padding: 1rem;
+  }
+
+  .admin-header h1 {
+    font-size: 1.5rem;
+  }
+
+  table thead {
+    display: none;
+   
+  }
+
+  table, table tbody, table tr, table td {
+    display: block;
+    width: 100%;
+  }
+
+  table tbody tr {
+    margin-bottom: 1rem;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
+  table td {
+    text-align: left;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  table td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .admin-header .btn-danger {
+    width: 38%;
+  }
+  Form{
+    width: 45%;
+  }
+  form{
+    display: flex;
+    align-self: self-start;
+    justify-self: self-start;
+  }
+}
+
